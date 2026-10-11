@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-dwd-climate",
+  "version": "0.1.0",
+  "description": "DWD Climate Data Center — daily station observations for Germany.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-dwd-climate": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "dwd-climate"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-dwd-climate.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-6770beceeb8c3aa28f28cdcfb69104fa32862e1246847ca8ba21a64e76f68096",
+    "sourceCommit": "32aab95bb6e89ecc0f84597573d405a8a22cb609"
+  }
+}
