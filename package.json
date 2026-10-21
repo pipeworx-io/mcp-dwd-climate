@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-dwd-climate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DWD Climate Data Center — daily station observations for Germany.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-6770beceeb8c3aa28f28cdcfb69104fa32862e1246847ca8ba21a64e76f68096",
-    "sourceCommit": "32aab95bb6e89ecc0f84597573d405a8a22cb609"
+    "sourceHash": "v1-19fa3c0f3c5f894a7b3888d31a1e2883cf9f25782ff617cea783952c3698f2b6",
+    "sourceCommit": "5749f83c0ea115fab4c0c0ef04b66b05f2507d67"
   }
 }
